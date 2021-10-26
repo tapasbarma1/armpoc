@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "ApplicationName": {
+            "type": "string",
+            "metadata": { "description": "description" }
+        },
+        "Environment": {
+            "type": "string",
+            "allowedValues": [ "DEV", "UAT", "PROD" ],
+            "metadata": { "description": "description" }
+        },
+        "VnetAddressRange": {
+            "type": "string",
+            "metadata": { "description": "description" }
+        },
+        "subnet1range": {
+            "type": "string",
+            "metadata": { "description": "description" }
+        },
+        "subnet2range": {
+            "type": "string",
+            "metadata": { "description": "description" }
+        }
+    }
+}, "functions": [], "variables": {}, "resources": [], "outputs": {} }
